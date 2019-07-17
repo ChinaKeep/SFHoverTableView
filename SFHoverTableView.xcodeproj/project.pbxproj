@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA8CE17122DECC8900BB0ADA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8CE17022DECC8900BB0ADA /* AppDelegate.m */; };
+		CA8CE17422DECC8900BB0ADA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8CE17322DECC8900BB0ADA /* ViewController.m */; };
+		CA8CE17722DECC8900BB0ADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA8CE17522DECC8900BB0ADA /* Main.storyboard */; };
+		CA8CE17A22DECC8900BB0ADA /* SFHoverTableView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA8CE17822DECC8900BB0ADA /* SFHoverTableView.xcdatamodeld */; };
+		CA8CE17C22DECC8B00BB0ADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA8CE17B22DECC8B00BB0ADA /* Assets.xcassets */; };
+		CA8CE17F22DECC8B00BB0ADA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA8CE17D22DECC8B00BB0ADA /* LaunchScreen.storyboard */; };
+		CA8CE18222DECC8B00BB0ADA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8CE18122DECC8B00BB0ADA /* main.m */; };
+		CA8CE18C22DECC8C00BB0ADA /* SFHoverTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8CE18B22DECC8C00BB0ADA /* SFHoverTableViewTests.m */; };
+		CA8CE19722DECC8C00BB0ADA /* SFHoverTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8CE19622DECC8C00BB0ADA /* SFHoverTableViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA8CE18822DECC8C00BB0ADA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA8CE16422DECC8900BB0ADA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA8CE16B22DECC8900BB0ADA;
+			remoteInfo = SFHoverTableView;
+		};
+		CA8CE19322DECC8C00BB0ADA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA8CE16422DECC8900BB0ADA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA8CE16B22DECC8900BB0ADA;
+			remoteInfo = SFHoverTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA8CE16C22DECC8900BB0ADA /* SFHoverTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFHoverTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA8CE16F22DECC8900BB0ADA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA8CE17022DECC8900BB0ADA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA8CE17222DECC8900BB0ADA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA8CE17322DECC8900BB0ADA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA8CE17622DECC8900BB0ADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA8CE17922DECC8900BB0ADA /* SFHoverTableView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SFHoverTableView.xcdatamodel; sourceTree = "<group>"; };
+		CA8CE17B22DECC8B00BB0ADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA8CE17E22DECC8B00BB0ADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA8CE18022DECC8B00BB0ADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA8CE18122DECC8B00BB0ADA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA8CE18722DECC8B00BB0ADA /* SFHoverTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFHoverTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA8CE18B22DECC8C00BB0ADA /* SFHoverTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFHoverTableViewTests.m; sourceTree = "<group>"; };
+		CA8CE18D22DECC8C00BB0ADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA8CE19222DECC8C00BB0ADA /* SFHoverTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFHoverTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA8CE19622DECC8C00BB0ADA /* SFHoverTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFHoverTableViewUITests.m; sourceTree = "<group>"; };
+		CA8CE19822DECC8C00BB0ADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA8CE16922DECC8900BB0ADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA8CE18422DECC8B00BB0ADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA8CE18F22DECC8C00BB0ADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA8CE16322DECC8900BB0ADA = {
+			isa = PBXGroup;
+			children = (
+				CA8CE16E22DECC8900BB0ADA /* SFHoverTableView */,
+				CA8CE18A22DECC8C00BB0ADA /* SFHoverTableViewTests */,
+				CA8CE19522DECC8C00BB0ADA /* SFHoverTableViewUITests */,
+				CA8CE16D22DECC8900BB0ADA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA8CE16D22DECC8900BB0ADA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA8CE16C22DECC8900BB0ADA /* SFHoverTableView.app */,
+				CA8CE18722DECC8B00BB0ADA /* SFHoverTableViewTests.xctest */,
+				CA8CE19222DECC8C00BB0ADA /* SFHoverTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA8CE16E22DECC8900BB0ADA /* SFHoverTableView */ = {
+			isa = PBXGroup;
+			children = (
+				CA8CE16F22DECC8900BB0ADA /* AppDelegate.h */,
+				CA8CE17022DECC8900BB0ADA /* AppDelegate.m */,
+				CA8CE17222DECC8900BB0ADA /* ViewController.h */,
+				CA8CE17322DECC8900BB0ADA /* ViewController.m */,
+				CA8CE17522DECC8900BB0ADA /* Main.storyboard */,
+				CA8CE17B22DECC8B00BB0ADA /* Assets.xcassets */,
+				CA8CE17D22DECC8B00BB0ADA /* LaunchScreen.storyboard */,
+				CA8CE18022DECC8B00BB0ADA /* Info.plist */,
+				CA8CE18122DECC8B00BB0ADA /* main.m */,
+				CA8CE17822DECC8900BB0ADA /* SFHoverTableView.xcdatamodeld */,
+			);
+			path = SFHoverTableView;
+			sourceTree = "<group>";
+		};
+		CA8CE18A22DECC8C00BB0ADA /* SFHoverTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA8CE18B22DECC8C00BB0ADA /* SFHoverTableViewTests.m */,
+				CA8CE18D22DECC8C00BB0ADA /* Info.plist */,
+			);
+			path = SFHoverTableViewTests;
+			sourceTree = "<group>";
+		};
+		CA8CE19522DECC8C00BB0ADA /* SFHoverTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA8CE19622DECC8C00BB0ADA /* SFHoverTableViewUITests.m */,
+				CA8CE19822DECC8C00BB0ADA /* Info.plist */,
+			);
+			path = SFHoverTableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA8CE16B22DECC8900BB0ADA /* SFHoverTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA8CE19B22DECC8C00BB0ADA /* Build configuration list for PBXNativeTarget "SFHoverTableView" */;
+			buildPhases = (
+				CA8CE16822DECC8900BB0ADA /* Sources */,
+				CA8CE16922DECC8900BB0ADA /* Frameworks */,
+				CA8CE16A22DECC8900BB0ADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFHoverTableView;
+			productName = SFHoverTableView;
+			productReference = CA8CE16C22DECC8900BB0ADA /* SFHoverTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA8CE18622DECC8B00BB0ADA /* SFHoverTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA8CE19E22DECC8C00BB0ADA /* Build configuration list for PBXNativeTarget "SFHoverTableViewTests" */;
+			buildPhases = (
+				CA8CE18322DECC8B00BB0ADA /* Sources */,
+				CA8CE18422DECC8B00BB0ADA /* Frameworks */,
+				CA8CE18522DECC8B00BB0ADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA8CE18922DECC8C00BB0ADA /* PBXTargetDependency */,
+			);
+			name = SFHoverTableViewTests;
+			productName = SFHoverTableViewTests;
+			productReference = CA8CE18722DECC8B00BB0ADA /* SFHoverTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA8CE19122DECC8C00BB0ADA /* SFHoverTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA8CE1A122DECC8C00BB0ADA /* Build configuration list for PBXNativeTarget "SFHoverTableViewUITests" */;
+			buildPhases = (
+				CA8CE18E22DECC8C00BB0ADA /* Sources */,
+				CA8CE18F22DECC8C00BB0ADA /* Frameworks */,
+				CA8CE19022DECC8C00BB0ADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA8CE19422DECC8C00BB0ADA /* PBXTargetDependency */,
+			);
+			name = SFHoverTableViewUITests;
+			productName = SFHoverTableViewUITests;
+			productReference = CA8CE19222DECC8C00BB0ADA /* SFHoverTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA8CE16422DECC8900BB0ADA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "随风流年";
+				TargetAttributes = {
+					CA8CE16B22DECC8900BB0ADA = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CA8CE18622DECC8B00BB0ADA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CA8CE16B22DECC8900BB0ADA;
+					};
+					CA8CE19122DECC8C00BB0ADA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CA8CE16B22DECC8900BB0ADA;
+					};
+				};
+			};
+			buildConfigurationList = CA8CE16722DECC8900BB0ADA /* Build configuration list for PBXProject "SFHoverTableView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA8CE16322DECC8900BB0ADA;
+			productRefGroup = CA8CE16D22DECC8900BB0ADA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA8CE16B22DECC8900BB0ADA /* SFHoverTableView */,
+				CA8CE18622DECC8B00BB0ADA /* SFHoverTableViewTests */,
+				CA8CE19122DECC8C00BB0ADA /* SFHoverTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA8CE16A22DECC8900BB0ADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA8CE17F22DECC8B00BB0ADA /* LaunchScreen.storyboard in Resources */,
+				CA8CE17C22DECC8B00BB0ADA /* Assets.xcassets in Resources */,
+				CA8CE17722DECC8900BB0ADA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA8CE18522DECC8B00BB0ADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA8CE19022DECC8C00BB0ADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA8CE16822DECC8900BB0ADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA8CE17422DECC8900BB0ADA /* ViewController.m in Sources */,
+				CA8CE17122DECC8900BB0ADA /* AppDelegate.m in Sources */,
+				CA8CE18222DECC8B00BB0ADA /* main.m in Sources */,
+				CA8CE17A22DECC8900BB0ADA /* SFHoverTableView.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA8CE18322DECC8B00BB0ADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA8CE18C22DECC8C00BB0ADA /* SFHoverTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA8CE18E22DECC8C00BB0ADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA8CE19722DECC8C00BB0ADA /* SFHoverTableViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA8CE18922DECC8C00BB0ADA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA8CE16B22DECC8900BB0ADA /* SFHoverTableView */;
+			targetProxy = CA8CE18822DECC8C00BB0ADA /* PBXContainerItemProxy */;
+		};
+		CA8CE19422DECC8C00BB0ADA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA8CE16B22DECC8900BB0ADA /* SFHoverTableView */;
+			targetProxy = CA8CE19322DECC8C00BB0ADA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA8CE17522DECC8900BB0ADA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA8CE17622DECC8900BB0ADA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA8CE17D22DECC8B00BB0ADA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA8CE17E22DECC8B00BB0ADA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA8CE19922DECC8C00BB0ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA8CE19A22DECC8C00BB0ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA8CE19C22DECC8C00BB0ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KFRVB6Y3M2;
+				INFOPLIST_FILE = SFHoverTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dongge.SFHoverTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA8CE19D22DECC8C00BB0ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KFRVB6Y3M2;
+				INFOPLIST_FILE = SFHoverTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dongge.SFHoverTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA8CE19F22DECC8C00BB0ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KFRVB6Y3M2;
+				INFOPLIST_FILE = SFHoverTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dongge.SFHoverTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFHoverTableView.app/SFHoverTableView";
+			};
+			name = Debug;
+		};
+		CA8CE1A022DECC8C00BB0ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KFRVB6Y3M2;
+				INFOPLIST_FILE = SFHoverTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dongge.SFHoverTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFHoverTableView.app/SFHoverTableView";
+			};
+			name = Release;
+		};
+		CA8CE1A222DECC8C00BB0ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KFRVB6Y3M2;
+				INFOPLIST_FILE = SFHoverTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dongge.SFHoverTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SFHoverTableView;
+			};
+			name = Debug;
+		};
+		CA8CE1A322DECC8C00BB0ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KFRVB6Y3M2;
+				INFOPLIST_FILE = SFHoverTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dongge.SFHoverTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SFHoverTableView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA8CE16722DECC8900BB0ADA /* Build configuration list for PBXProject "SFHoverTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA8CE19922DECC8C00BB0ADA /* Debug */,
+				CA8CE19A22DECC8C00BB0ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA8CE19B22DECC8C00BB0ADA /* Build configuration list for PBXNativeTarget "SFHoverTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA8CE19C22DECC8C00BB0ADA /* Debug */,
+				CA8CE19D22DECC8C00BB0ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA8CE19E22DECC8C00BB0ADA /* Build configuration list for PBXNativeTarget "SFHoverTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA8CE19F22DECC8C00BB0ADA /* Debug */,
+				CA8CE1A022DECC8C00BB0ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA8CE1A122DECC8C00BB0ADA /* Build configuration list for PBXNativeTarget "SFHoverTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA8CE1A222DECC8C00BB0ADA /* Debug */,
+				CA8CE1A322DECC8C00BB0ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CA8CE17822DECC8900BB0ADA /* SFHoverTableView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CA8CE17922DECC8900BB0ADA /* SFHoverTableView.xcdatamodel */,
+			);
+			currentVersion = CA8CE17922DECC8900BB0ADA /* SFHoverTableView.xcdatamodel */;
+			path = SFHoverTableView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CA8CE16422DECC8900BB0ADA /* Project object */;
+}
