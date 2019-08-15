@@ -1,0 +1,33 @@
+//
+//  PrefixHeader.pch
+//  SFHoverTableView
+//
+//  Created by 随风流年 on 2019/7/22.
+//  Copyright © 2019 随风流年. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "MJRefresh.h"
+#import "SGScreenTool.h"
+
+#define PageMenuH 40
+#define NaviH 64
+#define HeaderViewH 200
+
+#define ISIPHONEX [SGScreenTool isPhoneX]
+#define Height_StatusBar (ISIPHONEX ? 44.0f: 20.0f)
+#define Height_NavBar ((ISIPHONEX==YES) ? 88.0f: 64.0f)
+#define Height_TabBar ((ISIPHONEX==YES) ? 83.0f: 44.0f)
+
+#define BottomMargin (ISIPHONEX ? 34.0f: 0.0f)
+
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+#define RECEIVE_MESSAGE_NOTIFICATION @"RECEIVE_MESSAGE_NOTIFICATION"
+
+#define kScrollViewBeginTopInset 240
+
+
+#endif /* PrefixHeader_pch */

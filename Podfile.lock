@@ -1,0 +1,20 @@
+PODS:
+  - Masonry (1.1.0)
+  - RegexKitLite (4.0)
+
+DEPENDENCIES:
+  - Masonry
+  - RegexKitLite
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+    - RegexKitLite
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  RegexKitLite: c0e4c12e6e7de0769f3a3ed679f0f61604170661
+
+PODFILE CHECKSUM: a08def3878d41d7a1f06e2206fad7d0dab3de81b
+
+COCOAPODS: 1.6.1

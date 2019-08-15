@@ -1,0 +1,6 @@
+framework module Pods_SFHoverTableView {
+  umbrella header "Pods-SFHoverTableView-umbrella.h"
+
+  export *
+  module * { export * }
+}
